@@ -1,16 +1,20 @@
-﻿using Xamarin.Forms;
-
-namespace eplant
+﻿namespace eplant
 {
+    using Xamarin.Forms;
+    using Views;
+
     public partial class App : Application
     {
+        #region Constructors
         public App()
         {
             InitializeComponent();
 
-            MainPage = new RegistroPlanta();
-        }
+            MainPage = new NavigationPage(new LoginPage());
+        } 
+        #endregion
 
+        #region Methods
         protected override void OnStart()
         {
             // Handle when your app starts
@@ -24,6 +28,7 @@ namespace eplant
         protected override void OnResume()
         {
             // Handle when your app resumes
-        }
+        } 
+        #endregion
     }
 }
