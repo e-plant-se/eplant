@@ -644,3 +644,9 @@ C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\android\src\md5923915730cfceec16457f8ba8acc92fc\XFormsApplicationDroid.java
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\res\drawable\icon.png
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\res\drawable\planta.jpg
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\res\drawable\iconeplant.png
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\res\mipmap-mdpi\iconeplant.png
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\res\mipmap-hdpi\iconeplant.png
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\res\mipmap-xhdpi\iconeplant.png
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\res\mipmap-xxhdpi\iconeplant.png
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\res\mipmap-xxxhdpi\iconeplant.png

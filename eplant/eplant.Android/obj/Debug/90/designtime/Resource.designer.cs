@@ -7084,8 +7084,8 @@ namespace eplant.Droid
 			// aapt resource value: 0x7F090054
 			public const int abc_vector_test = 2131296340;
 			
-			// aapt resource value: 0x7F010313
-			public const int ad16 = 2130772755;
+			// aapt resource value: 0x7F010314
+			public const int ad16 = 2130772756;
 			
 			// aapt resource value: 0x7F090055
 			public const int avd_hide_password = 2131296341;
@@ -7093,8 +7093,8 @@ namespace eplant.Droid
 			// aapt resource value: 0x7F090056
 			public const int avd_show_password = 2131296342;
 			
-			// aapt resource value: 0x7F010314
-			public const int calendar_bg_selector = 2130772756;
+			// aapt resource value: 0x7F010315
+			public const int calendar_bg_selector = 2130772757;
 			
 			// aapt resource value: 0x7F090057
 			public const int design_bottom_navigation_item_background = 2131296343;
@@ -7116,6 +7116,9 @@ namespace eplant.Droid
 			
 			// aapt resource value: 0x7F010002
 			public const int icon = 2130771970;
+			
+			// aapt resource value: 0x7F010003
+			public const int iconeplant = 2130771971;
 			
 			// aapt resource value: 0x7F090055
 			public const int ic_audiotrack_dark = 2131296341;
@@ -7762,8 +7765,8 @@ namespace eplant.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010003
-			public const int planta = 2130771971;
+			// aapt resource value: 0x7F010004
+			public const int planta = 2130771972;
 			
 			// aapt resource value: 0x7F09006F
 			public const int tooltip_frame_dark = 2131296367;
@@ -8862,11 +8865,14 @@ namespace eplant.Droid
 			// aapt resource value: 0x7F040002
 			public const int icon = 2130968578;
 			
+			// aapt resource value: 0x7F040004
+			public const int iconeplant = 2130968580;
+			
 			// aapt resource value: 0x7F040003
 			public const int icon_round = 2130968579;
 			
-			// aapt resource value: 0x7F040004
-			public const int launcher_foreground = 2130968580;
+			// aapt resource value: 0x7F040005
+			public const int launcher_foreground = 2130968581;
 			
 			static Mipmap()
 			{
