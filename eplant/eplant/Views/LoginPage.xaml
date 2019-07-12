@@ -3,11 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
              mc:Ignorable="d"
              x:Class="eplant.Views.LoginPage">
     <ContentPage.Content>
-        <StackLayout 
-            Padding="10, 20">
+
+        <ScrollView 
+            VerticalOptions="FillAndExpand"
+            Margin="10">
+            
+            <StackLayout 
+                Padding="10, 20">
             <Label Text="e-Plant"
                 FontAttributes="Bold"
                 FontSize="Large"                
@@ -53,7 +59,7 @@
             </Grid>
 
             <StackLayout
-                Padding="10"
+                Padding="10, 5"
                 Orientation="Horizontal">
                 <Label
                     HorizontalOptions="StartAndExpand"
@@ -73,6 +79,50 @@
                 CornerRadius="23"
                 TextColor="White">
             </Button>
-        </StackLayout>
+
+            <Label
+                HorizontalTextAlignment="Center"
+                Text="Inicia sesión con"
+                Margin="10">
+                
+            </Label>
+
+            <StackLayout Orientation="Horizontal"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center">
+                
+                <controls:CircleImage Aspect="AspectFit"
+                                WidthRequest="50">
+                    <controls:CircleImage.Source>
+                        <OnPlatform x:TypeArguments="FileImageSource">
+                            <OnPlatform.Android>
+                                <FileImageSource File="fb_logo.png" />
+                            </OnPlatform.Android>
+                            <OnPlatform.iOS>
+                                <FileImageSource File="fb_logo.png" />
+                            </OnPlatform.iOS>
+                        </OnPlatform>
+                    </controls:CircleImage.Source>
+                </controls:CircleImage>
+
+                <controls:CircleImage Aspect="AspectFit"
+                                WidthRequest="50">
+                    <controls:CircleImage.Source>
+                        <OnPlatform x:TypeArguments="FileImageSource">
+                            <OnPlatform.Android>
+                                <FileImageSource File="tw_logo.png" />
+                            </OnPlatform.Android>
+                            <OnPlatform.iOS>
+                                <FileImageSource File="tw_logo.png" />
+                            </OnPlatform.iOS>
+                        </OnPlatform>
+                    </controls:CircleImage.Source>
+
+                    </controls:CircleImage>
+                </StackLayout>
+
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
