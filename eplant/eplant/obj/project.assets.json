@@ -749,25 +749,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Carlos Figueroa\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "D:\\Luis J. Ortiz\\.nuget\\packages\\": {},
+    "E:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\eplant.csproj",
+      "projectUniqueName": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj",
       "projectName": "eplant",
-      "projectPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\eplant.csproj",
-      "packagesPath": "C:\\Users\\Carlos Figueroa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\obj\\",
+      "projectPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj",
+      "packagesPath": "D:\\Luis J. Ortiz\\.nuget\\packages\\",
+      "outputPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "E:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Carlos Figueroa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Luis J. Ortiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -824,7 +824,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"ExifLib.PCL 1.0.1\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETStandard,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'ExifLib.PCL 1.0.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "ExifLib.PCL",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -834,7 +834,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"XLabs.Core 2.0.5782\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETStandard,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'XLabs.Core 2.0.5782' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "XLabs.Core",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -844,7 +844,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"XLabs.Forms 2.0.5782\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETStandard,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'XLabs.Forms 2.0.5782' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "XLabs.Forms",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -854,7 +854,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"XLabs.IoC 2.0.5782\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETStandard,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'XLabs.IoC 2.0.5782' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "XLabs.IoC",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -864,7 +864,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"XLabs.Platform 2.0.5782\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETStandard,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'XLabs.Platform 2.0.5782' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "XLabs.Platform",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -874,7 +874,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"XLabs.Serialization 2.0.5782\" se restauró con \".NETFramework,Version=v4.6.1\" en lugar de la plataforma de destino del proyecto \".NETStandard,Version=v2.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'XLabs.Serialization 2.0.5782' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "XLabs.Serialization",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

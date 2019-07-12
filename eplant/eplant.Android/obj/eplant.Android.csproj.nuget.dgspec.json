@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj": {}
+    "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj": {
+    "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
+        "projectUniqueName": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
         "projectName": "eplant.Android",
-        "projectPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
-        "packagesPath": "C:\\Users\\Carlos Figueroa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant.Android\\obj\\",
+        "projectPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
+        "packagesPath": "D:\\Luis J. Ortiz\\.nuget\\packages\\",
+        "outputPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "E:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Carlos Figueroa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Luis J. Ortiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\eplant.csproj": {
-                "projectPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\eplant.csproj"
+              "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj": {
+                "projectPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj"
               }
             }
           }
@@ -82,21 +82,21 @@
         }
       }
     },
-    "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\eplant.csproj": {
+    "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\eplant.csproj",
+        "projectUniqueName": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj",
         "projectName": "eplant",
-        "projectPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\eplant.csproj",
-        "packagesPath": "C:\\Users\\Carlos Figueroa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\obj\\",
+        "projectPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj",
+        "packagesPath": "D:\\Luis J. Ortiz\\.nuget\\packages\\",
+        "outputPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "E:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Carlos Figueroa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Luis J. Ortiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

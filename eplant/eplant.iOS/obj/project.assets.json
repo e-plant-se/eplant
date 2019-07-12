@@ -1414,24 +1414,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Carlos Figueroa\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "D:\\Luis J. Ortiz\\.nuget\\packages\\": {},
+    "E:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj",
+      "projectUniqueName": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj",
       "projectName": "eplant.iOS",
-      "projectPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj",
-      "packagesPath": "C:\\Users\\Carlos Figueroa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant.iOS\\obj\\",
+      "projectPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj",
+      "packagesPath": "D:\\Luis J. Ortiz\\.nuget\\packages\\",
+      "outputPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "E:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Carlos Figueroa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Luis J. Ortiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1445,8 +1445,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\eplant.csproj": {
-              "projectPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\eplant.csproj"
+            "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj": {
+              "projectPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj"
             }
           }
         }
@@ -1483,7 +1483,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Degradación del paquete detectada: Xamarin.Essentials de 1.2.0 a 1.1.0. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n eplant.iOS -> eplant -> Xamarin.Essentials (>= 1.2.0) \r\n eplant.iOS -> Xamarin.Essentials (>= 1.1.0)",
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.2.0 to 1.1.0. Reference the package directly from the project to select a different version. \r\n eplant.iOS -> eplant -> Xamarin.Essentials (>= 1.2.0) \r\n eplant.iOS -> Xamarin.Essentials (>= 1.1.0)",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
@@ -1496,7 +1496,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Degradación del paquete detectada: Xamarin.Forms de 4.0.0.540366 a 4.0.0.425677. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n eplant.iOS -> eplant -> Xamarin.Forms (>= 4.0.0.540366) \r\n eplant.iOS -> Xamarin.Forms (>= 4.0.0.425677)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.0.0.540366 to 4.0.0.425677. Reference the package directly from the project to select a different version. \r\n eplant.iOS -> eplant -> Xamarin.Forms (>= 4.0.0.540366) \r\n eplant.iOS -> Xamarin.Forms (>= 4.0.0.425677)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
