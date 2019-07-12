@@ -1,0 +1,14 @@
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\obj\Debug\netstandard2.0\eplant.csprojAssemblyReference.cache
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\obj\Debug\netstandard2.0\eplant.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\obj\Debug\netstandard2.0\eplant.AssemblyInfoInputs.cache
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\obj\Debug\netstandard2.0\eplant.AssemblyInfo.cs
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\obj\Debug\netstandard2.0\eplant.dll
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\obj\Debug\netstandard2.0\ref\eplant.dll
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\obj\Debug\netstandard2.0\eplant.pdb
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\bin\Debug\netstandard2.0\eplant.deps.json
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\bin\Debug\netstandard2.0\eplant.dll
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\bin\Debug\netstandard2.0\ref\eplant.dll
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\bin\Debug\netstandard2.0\eplant.pdb
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant\obj\Debug\netstandard2.0\Views\RegistroPlanta.xaml.g.cs
