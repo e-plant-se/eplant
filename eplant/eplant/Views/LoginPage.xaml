@@ -41,19 +41,19 @@
                     Grid.Row="0"
                     Grid.Column="1"
                     Keyboard="Email"
-                    Placeholder = "Enter your e-mail">
+                    Placeholder = "Ingrese su e-mail">
                 </Entry>
 
                 <Label 
                     Grid.Row="1"
                     Grid.Column="0"
-                    Text="Password"
+                    Text="Contraseña"
                     VerticalOptions="Center"/>
                 <Entry 
                     Grid.Row="1"
                     Grid.Column="1"
                     IsPassword="True"
-                    Placeholder = "Enter your password">
+                    Placeholder = "Ingrese su contraseña">
                 </Entry>
 
             </Grid>
@@ -63,24 +63,31 @@
                 Orientation="Horizontal">
                 <Label
                     HorizontalOptions="StartAndExpand"
-                    Text="Remember me"                    
+                    Text="Recordarme"                    
                     VerticalOptions="Center">
                 </Label>
                 <Switch
                     HorizontalOptions="End">
                 </Switch>
             </StackLayout>
+                
             <ActivityIndicator>
             </ActivityIndicator>
 
             <Button 
-                Text="Login"
+                Text="Iniciar sesión"
                 BackgroundColor="Navy"
                 CornerRadius="23"
                 TextColor="White">
             </Button>
+            <Button 
+                Text="Registrarse"
+                BackgroundColor="BlueViolet"
+                CornerRadius="23"
+                TextColor="White">
+            </Button>
 
-            <Label
+                <Label
                 HorizontalTextAlignment="Center"
                 Text="Inicia sesión con"
                 Margin="10">
@@ -90,38 +97,36 @@
             <StackLayout Orientation="Horizontal"
                          VerticalOptions="Center"
                          HorizontalOptions="Center">
-                
-                <controls:CircleImage Aspect="AspectFit"
-                                WidthRequest="50">
-                    <controls:CircleImage.Source>
-                        <OnPlatform x:TypeArguments="FileImageSource">
-                            <OnPlatform.Android>
-                                <FileImageSource File="fb_logo.png" />
-                            </OnPlatform.Android>
-                            <OnPlatform.iOS>
-                                <FileImageSource File="fb_logo.png" />
-                            </OnPlatform.iOS>
-                        </OnPlatform>
-                    </controls:CircleImage.Source>
-                </controls:CircleImage>
 
-                <controls:CircleImage Aspect="AspectFit"
+                    <controls:CircleImage Aspect="AspectFit"
                                 WidthRequest="50">
-                    <controls:CircleImage.Source>
-                        <OnPlatform x:TypeArguments="FileImageSource">
-                            <OnPlatform.Android>
-                                <FileImageSource File="tw_logo.png" />
-                            </OnPlatform.Android>
-                            <OnPlatform.iOS>
-                                <FileImageSource File="tw_logo.png" />
-                            </OnPlatform.iOS>
-                        </OnPlatform>
-                    </controls:CircleImage.Source>
+                        <controls:CircleImage.Source>
+                            <OnPlatform x:TypeArguments="FileImageSource">
+                                <OnPlatform.Android>
+                                    <FileImageSource File="fb_logo.png" />
+                                </OnPlatform.Android>
+                                <OnPlatform.iOS>
+                                    <FileImageSource File="fb_logo.png" />
+                                </OnPlatform.iOS>
+                            </OnPlatform>
+                        </controls:CircleImage.Source>
+                    </controls:CircleImage>
+
+                    <controls:CircleImage Aspect="AspectFit"
+                                WidthRequest="50">
+                        <controls:CircleImage.Source>
+                            <OnPlatform x:TypeArguments="FileImageSource">
+                                <OnPlatform.Android>
+                                    <FileImageSource File="tw_logo.png" />
+                                </OnPlatform.Android>
+                                <OnPlatform.iOS>
+                                    <FileImageSource File="tw_logo.png" />
+                                </OnPlatform.iOS>
+                            </OnPlatform>
+                        </controls:CircleImage.Source>
 
                     </controls:CircleImage>
                 </StackLayout>
-
-
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
