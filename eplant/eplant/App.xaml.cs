@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using eplant.Views;
 
 namespace eplant
 {
@@ -8,7 +9,7 @@ namespace eplant
         {
             InitializeComponent();
 
-            MainPage = new RegistroPlanta();
+            MainPage = new CamaView();
         }
 
         protected override void OnStart()

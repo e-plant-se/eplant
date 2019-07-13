@@ -18,7 +18,7 @@ namespace eplant.Views
         {
             InitializeComponent();
             vm = new CamaViewModel();
-            listaCamas = ItemsSource = vm.Camas;
+            listaCamas.ItemsSource = vm.Camas;
         }
     }
 }

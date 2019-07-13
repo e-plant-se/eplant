@@ -2205,24 +2205,24 @@
     ]
   },
   "packageFolders": {
-    "D:\\Luis J. Ortiz\\.nuget\\packages\\": {},
-    "E:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
+      "projectUniqueName": "C:\\Programs_Git\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
       "projectName": "eplant.Android",
-      "projectPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
-      "packagesPath": "D:\\Luis J. Ortiz\\.nuget\\packages\\",
-      "outputPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.Android\\obj\\",
+      "projectPath": "C:\\Programs_Git\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Programs_Git\\eplant\\eplant\\eplant.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "E:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "D:\\Luis J. Ortiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2236,8 +2236,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj": {
-              "projectPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj"
+            "C:\\Programs_Git\\eplant\\eplant\\eplant\\eplant.csproj": {
+              "projectPath": "C:\\Programs_Git\\eplant\\eplant\\eplant\\eplant.csproj"
             }
           }
         }
@@ -2291,7 +2291,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Essentials from 1.2.0 to 1.1.0. Reference the package directly from the project to select a different version. \r\n eplant.Android -> eplant -> Xamarin.Essentials (>= 1.2.0) \r\n eplant.Android -> Xamarin.Essentials (>= 1.1.0)",
+      "message": "Degradación del paquete detectada: Xamarin.Essentials de 1.2.0 a 1.1.0. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n eplant.Android -> eplant -> Xamarin.Essentials (>= 1.2.0) \r\n eplant.Android -> Xamarin.Essentials (>= 1.1.0)",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"
@@ -2301,7 +2301,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.0.0.540366 to 4.0.0.425677. Reference the package directly from the project to select a different version. \r\n eplant.Android -> eplant -> Xamarin.Forms (>= 4.0.0.540366) \r\n eplant.Android -> Xamarin.Forms (>= 4.0.0.425677)",
+      "message": "Degradación del paquete detectada: Xamarin.Forms de 4.0.0.540366 a 4.0.0.425677. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n eplant.Android -> eplant -> Xamarin.Forms (>= 4.0.0.540366) \r\n eplant.Android -> Xamarin.Forms (>= 4.0.0.425677)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"

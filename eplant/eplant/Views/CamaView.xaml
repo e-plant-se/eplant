@@ -14,12 +14,12 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Spacing="5">
-                                <Label Text="{binding idCama}" FontSize="20"/>
-                                <Image Source="{binding imageUrl}" WidthRequest="150" HeightRequest="150"/>
-                                <Label Text="{binding tipo}" FontSize="20"/>
-                                <Label Text="{binding estructura}" FontSize="20"/>
-                                <Label Text="{binding planta1}" FontSize="20"/>
-                                <Label Text="{binding fechaCultivo}" FontSize="20"/>
+                                <Label Text="{Binding idCama}" FontSize="20"/>
+                                <Image Source="{Binding imageUrl}" WidthRequest="150" HeightRequest="150"/>
+                                <Label Text="{Binding tipo}" FontSize="20"/>
+                                <Label Text="{Binding estructura}" FontSize="20"/>
+                                <Label Text="{Binding planta1}" FontSize="20"/>
+                                <Label Text="{Binding fechaCultivo}" FontSize="20"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

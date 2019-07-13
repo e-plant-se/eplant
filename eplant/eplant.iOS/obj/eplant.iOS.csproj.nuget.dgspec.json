@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj": {}
+    "C:\\Programs_Git\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj": {}
   },
   "projects": {
-    "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj": {
+    "C:\\Programs_Git\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj",
+        "projectUniqueName": "C:\\Programs_Git\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj",
         "projectName": "eplant.iOS",
-        "projectPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj",
-        "packagesPath": "D:\\Luis J. Ortiz\\.nuget\\packages\\",
-        "outputPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant.iOS\\obj\\",
+        "projectPath": "C:\\Programs_Git\\eplant\\eplant\\eplant.iOS\\eplant.iOS.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Programs_Git\\eplant\\eplant\\eplant.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "E:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "D:\\Luis J. Ortiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj": {
-                "projectPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj"
+              "C:\\Programs_Git\\eplant\\eplant\\eplant\\eplant.csproj": {
+                "projectPath": "C:\\Programs_Git\\eplant\\eplant\\eplant\\eplant.csproj"
               }
             }
           }
@@ -65,21 +65,21 @@
         }
       }
     },
-    "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj": {
+    "C:\\Programs_Git\\eplant\\eplant\\eplant\\eplant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj",
+        "projectUniqueName": "C:\\Programs_Git\\eplant\\eplant\\eplant\\eplant.csproj",
         "projectName": "eplant",
-        "projectPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\eplant.csproj",
-        "packagesPath": "D:\\Luis J. Ortiz\\.nuget\\packages\\",
-        "outputPath": "D:\\Luis J. Ortiz\\Documents\\Repositories\\eplant\\eplant\\eplant\\obj\\",
+        "projectPath": "C:\\Programs_Git\\eplant\\eplant\\eplant\\eplant.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Programs_Git\\eplant\\eplant\\eplant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\Luis J. Ortiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
