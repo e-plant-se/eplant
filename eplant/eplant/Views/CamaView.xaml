@@ -9,17 +9,38 @@
         <StackLayout Spacing="10" Padding="10">
             <Label Text="Huerto Cocoteros" FontSize="34"/>
             <Label Text="Camas de Cultivo" FontSize="30"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Text="Regresar" />
+                <Button Grid.Column="1"
+		            Text="Agregar Cama"/>
+            </Grid>
             <ListView x:Name="listaCamas" HasUnevenRows="true">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Spacing="5">
-                                <Label Text="{binding idCama}" FontSize="20"/>
-                                <Image Source="{binding imageUrl}" WidthRequest="150" HeightRequest="150"/>
-                                <Label Text="{binding tipo}" FontSize="20"/>
-                                <Label Text="{binding estructura}" FontSize="20"/>
-                                <Label Text="{binding planta1}" FontSize="20"/>
-                                <Label Text="{binding fechaCultivo}" FontSize="20"/>
+                                <Image Source="{Binding imageUrl}" WidthRequest="150" HeightRequest="150"/>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="Cama: " FontSize="20"/>
+                                    <Label Text="Tipo de cama: " FontSize="20"/>
+                                    <Label Text="Estructura de cama: " FontSize="20"/>
+                                    <Label Text="Planta sembrada: " FontSize="20"/>
+                                    <Label Text="Fecha de siembra: " FontSize="20"/>
+                                    <Label Grid.Column="1" Text="{Binding idCama}" FontSize="20"/>
+                                    <Label Grid.Column="1" Text="{Binding tipo}" FontSize="20"/>
+                                    <Label Grid.Column="1" Text="{Binding estructura}" FontSize="20"/>
+                                    <Label Grid.Column="1" Text="{Binding planta1}" FontSize="20"/>
+                                    <Label Grid.Column="1" Text="{Binding fechaCultivo}" FontSize="20"/>
+                                </Grid>
+                                
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
