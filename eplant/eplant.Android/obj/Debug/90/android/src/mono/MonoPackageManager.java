@@ -114,6 +114,7 @@ class MonoPackageManager_Resources {
 		"eplant.dll",
 		"ExifLib.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

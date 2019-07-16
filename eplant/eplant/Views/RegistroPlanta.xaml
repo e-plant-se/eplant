@@ -15,7 +15,6 @@
                 TextColor="Black"
                 FontSize="Large"
                 FontAttributes="Bold"></Label>
-            <controls:Separator></controls:Separator>
             <controls:CircleImage
                 Margin="10"
                 HorizontalOptions="Fill"
@@ -38,25 +37,35 @@
                 TextColor="Black"
                 FontAttributes="Bold"></Label>
             <Entry
+                x:Name="entryNombreComun"
                 Placeholder="Ingrese el nombre técnico"
                 HorizontalOptions="FillAndExpand"
-                TextColor="Black"></Entry>
+                TextColor="Black"
+                IsSpellCheckEnabled="True"
+                ReturnType="Next"></Entry>
             <Label
                 Text="Nombre científico"
                 HorizontalOptions="FillAndExpand"
                 TextColor="Black"
                 FontAttributes="Bold"></Label>
             <Entry
+                x:Name="entryNombreCientifico"
                 Placeholder="Ingrese el nombre científico"
-                HorizontalOptions="FillAndExpand"></Entry>
+                HorizontalOptions="FillAndExpand"
+                IsSpellCheckEnabled="True"
+                ReturnType="Next"></Entry>
             <Label
                 Text="Temporada"
                 HorizontalOptions="FillAndExpand"
                 TextColor="Black"
                 FontAttributes="Bold"></Label>
             <Entry
+                x:Name="entryTemporada"
                 Placeholder="Ingrese la temporada"
-                HorizontalOptions="FillAndExpand"></Entry>
+                HorizontalOptions="FillAndExpand"
+                Keyboard="Default"
+                IsSpellCheckEnabled="True"
+                ReturnType="Next"></Entry>
             <Label
                 Text="Riego"
                 HorizontalOptions="FillAndExpand"
@@ -71,28 +80,35 @@
             <controls:BindableRadioGroup
                 x:Name="radioButtonCultivo"></controls:BindableRadioGroup>
             <Label
-                Text="Ciclo de vida"
+                Text="Ciclo de vida (Meses)"
                 TextColor="Black"
                 FontAttributes="Bold"></Label>
             <Entry
-                Placeholder="Ingrese el ciclo de vida"></Entry>
+                x:Name="entryCicloVida"
+                Placeholder="Ingrese el ciclo de vida"
+                Keyboard="Numeric"></Entry>
             <Label
                 Text="Usos"
                 TextColor="Black"
                 FontAttributes="Bold"></Label>
             <Editor
+                x:Name="editorUsos"
                 Placeholder="Ingrese sus usos"></Editor>
             <Label
-                Text="Tamaño"
+                Text="Tamaño (Centimetros)"
                 TextColor="Black"
                 FontAttributes="Bold"></Label>
             <Entry
-                Placeholder="Ingrese su tamaño"></Entry>
+                x:Name="entryTamaño"
+                Placeholder="Tamaño"
+                VerticalOptions="End"
+                Keyboard="Numeric"></Entry>
             <Button
                 Margin="90,30,90,30"
                 Text="Guardar"
                 HorizontalOptions="Center"
-                BackgroundColor="LightSeaGreen"></Button>
+                BackgroundColor="LightSeaGreen"
+                Clicked="saveRegistroPlanta"></Button>
         </StackLayout>
     </ScrollView>
 </ContentPage>

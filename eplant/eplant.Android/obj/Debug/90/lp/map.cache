@@ -1,6 +1,7 @@
 eplant
 ExifLib
 FormsViewGroup
+Newtonsoft.Json
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Core.Runtime

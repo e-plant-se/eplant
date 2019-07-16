@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using eplant.Models;
+using eplant.Services;
+using System.Threading.Tasks;
 
 namespace eplant.Views_Models
 {
@@ -6,12 +8,29 @@ namespace eplant.Views_Models
     {
         public string[] tipoCultivo = { "Plantula", "Por semilla", "Germinado" };
         public string[] tipoRiego = { "Abundante", "Moderado", "Poco" };
-
-        public Command getListCommand { get; set; }
+        public FirebaseConnection WebApi;
+        public RegisterPlantModel modelo;
 
         public RegistroPlantaViewModel()
         {
-            //getListCommand = new Command(async () => await getList());
+            WebApi = new FirebaseConnection();
+            modelo = new RegisterPlantModel();
+        }
+
+        public void WriteRegisterPlantAsync(string nombreComun, string nombreCientifico, string temporada, string tipoRiego, string tipoCultivo, string cicloVida, string uso, string tamaño)
+        {
+            var model = new RegisterPlantModel()
+            {
+                NombreComun = nombreComun,
+                NombreCientifico = nombreCientifico,
+                Temporada = temporada,
+                TipoRiego = tipoRiego,
+                TipoCultivo = tipoCultivo,
+                Uso = uso,
+                CicloVida = cicloVida,
+                Tamaño = tamaño
+            };
+            Task.Run(async () => await WebApi.PostRegisterPlantAsync(model));
         }
     }
 }
