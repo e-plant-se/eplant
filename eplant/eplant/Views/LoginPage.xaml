@@ -6,7 +6,7 @@
              xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
              mc:Ignorable="d"
              x:Class="eplant.Views.LoginPage">
-    <ContentPage.Content>
+    <ContentPage.BindingContext>
 
         <ScrollView 
             VerticalOptions="FillAndExpand"
@@ -14,7 +14,8 @@
             
             <StackLayout 
                 Padding="10, 20">
-            <Label Text="e-Plant"
+            <Label                
+                x:Name="appName_lbl"
                 FontAttributes="Bold"
                 FontSize="Large"                
                 HorizontalOptions="Center"/>
@@ -33,9 +34,9 @@
                 </Grid.ColumnDefinitions>
 
                 <Label
+                    x:Name="email"
                     Grid.Row="0"
-                    Grid.Column="0"
-                    Text="e-mail"
+                    Grid.Column="0"                    
                     VerticalOptions="Center"/>
                 <Entry 
                     Grid.Row="0"
@@ -45,9 +46,9 @@
                 </Entry>
 
                 <Label 
+                    x:Name="password"
                     Grid.Row="1"
-                    Grid.Column="0"
-                    Text="Contraseña"
+                    Grid.Column="0"                    
                     VerticalOptions="Center"/>
                 <Entry 
                     Grid.Row="1"
@@ -62,8 +63,8 @@
                 Padding="10, 5"
                 Orientation="Horizontal">
                 <Label
-                    HorizontalOptions="StartAndExpand"
-                    Text="Recordarme"                    
+                    x:Name="rememberme"
+                    HorizontalOptions="StartAndExpand"                                    
                     VerticalOptions="Center">
                 </Label>
                 <Switch
@@ -75,13 +76,13 @@
             </ActivityIndicator>
 
             <Button 
-                Text="Iniciar sesión"
+                x:Name="logIn"                
                 BackgroundColor="Navy"
                 CornerRadius="23"
                 TextColor="White">
             </Button>
             <Button 
-                Text="Registrarse"
+                x:Name="signIn"                
                 BackgroundColor="BlueViolet"
                 CornerRadius="23"
                 TextColor="White">
@@ -129,5 +130,5 @@
                 </StackLayout>
             </StackLayout>
         </ScrollView>
-    </ContentPage.Content>
+    </ContentPage.BindingContext>
 </ContentPage>
