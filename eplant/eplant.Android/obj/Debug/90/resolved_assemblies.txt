@@ -6,6 +6,7 @@ C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\android\assets\Mono.Android.Export.dll
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\android\assets\mscorlib.dll
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\android\assets\System.Core.dll
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\android\assets\System.dll
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\android\assets\System.Numerics.dll
