@@ -6,7 +6,7 @@
              xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
              mc:Ignorable="d"
              x:Class="eplant.Views.LoginPage">
-    <ContentPage.BindingContext>
+    <ContentPage.Content>
 
         <ScrollView 
             VerticalOptions="FillAndExpand"
@@ -18,7 +18,8 @@
                 x:Name="appName_lbl"
                 FontAttributes="Bold"
                 FontSize="Large"                
-                HorizontalOptions="Center"/>
+                HorizontalOptions="Center"
+                Text="{Binding appName}"/>
 
             <Image
                 Source="planet.png"
@@ -34,9 +35,10 @@
                 </Grid.ColumnDefinitions>
 
                 <Label
-                    x:Name="email"
+                    x:Name="email_lbl"
                     Grid.Row="0"
-                    Grid.Column="0"                    
+                    Grid.Column="0" 
+                    Text="{Binding email}"
                     VerticalOptions="Center"/>
                 <Entry 
                     Grid.Row="0"
@@ -46,9 +48,10 @@
                 </Entry>
 
                 <Label 
-                    x:Name="password"
+                    x:Name="password_lbl"
                     Grid.Row="1"
-                    Grid.Column="0"                    
+                    Grid.Column="0" 
+                    Text="{Binding password}"
                     VerticalOptions="Center"/>
                 <Entry 
                     Grid.Row="1"
@@ -63,8 +66,9 @@
                 Padding="10, 5"
                 Orientation="Horizontal">
                 <Label
-                    x:Name="rememberme"
-                    HorizontalOptions="StartAndExpand"                                    
+                    x:Name="rememberMe_lbl"
+                    HorizontalOptions="StartAndExpand"
+                    Text="{Binding rememberMe}"
                     VerticalOptions="Center">
                 </Label>
                 <Switch
@@ -76,23 +80,24 @@
             </ActivityIndicator>
 
             <Button 
-                x:Name="logIn"                
+                x:Name="logIn_btn"                
                 BackgroundColor="Navy"
                 CornerRadius="23"
+                Text="{Binding logIn}"
                 TextColor="White">
             </Button>
             <Button 
-                x:Name="signIn"                
+                x:Name="signIn_btn"                
                 BackgroundColor="BlueViolet"
                 CornerRadius="23"
+                Text="{Binding signIn}"
                 TextColor="White">
             </Button>
 
-                <Label
+            <Label
                 HorizontalTextAlignment="Center"
                 Text="Inicia sesión con"
                 Margin="10">
-                
             </Label>
 
             <StackLayout Orientation="Horizontal"
@@ -130,5 +135,5 @@
                 </StackLayout>
             </StackLayout>
         </ScrollView>
-    </ContentPage.BindingContext>
+    </ContentPage.Content>
 </ContentPage>

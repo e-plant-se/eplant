@@ -6,7 +6,8 @@ namespace eplant.Helpers
 {
     public static class Strings
     {
-        public const string viewName = "e-Plant";        
+        public const string appName = "e-Plant";
+        public const string viewName = "Login";        
     }
 
     public static class Login

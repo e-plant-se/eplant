@@ -12,18 +12,18 @@
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
-        
         public LoginPage()
         {
             InitializeComponent();
-            this.Title = Strings.viewName;
 
-            this.appName_lbl.Text = Strings.viewName;
-            this.email.Text = Login.Email;
-            this.password.Text = Login.password;
-            this.rememberme.Text = Login.rememberMe;
-            this.logIn.Text = Login.loginTitle;
-            this.signIn.Text = Login.signIn;
+            Title = Strings.appName;
+
+            appName_lbl.Text = Strings.appName;
+            email_lbl.Text = Login.Email;
+            password_lbl.Text = Login.password;
+            rememberMe_lbl.Text = Login.rememberMe;
+            logIn_btn.Text = Login.loginTitle;
+            signIn_btn.Text = Login.signIn;
         }
 
         
