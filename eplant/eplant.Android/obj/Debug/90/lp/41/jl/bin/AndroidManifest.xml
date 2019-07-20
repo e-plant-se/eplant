@@ -15,7 +15,11 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+    package="android.support.v7.viewpager" >
+=======
     package="android.support.v7.mediarouter" >
+>>>>>>> master
 
     <uses-sdk android:minSdkVersion="14" />
 
