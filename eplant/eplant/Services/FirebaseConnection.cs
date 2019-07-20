@@ -1,18 +1,21 @@
 ﻿using eplant.Helpers;
 using eplant.Models;
-using eplant.Views_Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace eplant.Services
 {
     public class FirebaseConnection : IFirebaseConnection
     {
+
+        #region Properties and variables
 
         const string _baseUrl = "https://eplant-947b2.firebaseio.com/";
 
@@ -20,10 +23,14 @@ namespace eplant.Services
 
         readonly HttpClient Client;
 
+        #endregion
+
         public FirebaseConnection()
         {
             Client = new HttpClient();
         }
+
+        #region Methods
 
         public async Task<List<RegistroPlanta>> PostRegisterPlantAsync(RegisterPlantModel model)
         {
@@ -46,5 +53,25 @@ namespace eplant.Services
                 return new List<RegistroPlanta>();
             }
         }
+
+        public async Task saveImage(Stream imgStream, string nameImage)
+        {
+            try
+            {
+                var firebaseClient = DependencyService.Get<IFirebaseConnection>();
+
+                if (firebaseClient != null)
+                {
+                    await firebaseClient.saveImage(imgStream, nameImage);
+                }
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandler.LogAndSendException(this, nameof(saveImage), ex);
+            }
+        }
+
+        #endregion
+
     }
 }
