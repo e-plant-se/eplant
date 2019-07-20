@@ -72,6 +72,7 @@ int id action_text 0x7f0c0005
 int id actions 0x7f0c0006
 int id async 0x7f0c0007
 int id blocking 0x7f0c0008
+<<<<<<< HEAD
 int id bottom 0x7f0c0009
 int id cancel_action 0x7f0c000a
 int id chronometer 0x7f0c000b
@@ -104,6 +105,33 @@ int id text2 0x7f0c0025
 int id time 0x7f0c0026
 int id title 0x7f0c0027
 int id top 0x7f0c0028
+=======
+int id cancel_action 0x7f0c0009
+int id chronometer 0x7f0c000a
+int id end_padder 0x7f0c000b
+int id forever 0x7f0c000c
+int id icon 0x7f0c000d
+int id icon_group 0x7f0c000e
+int id info 0x7f0c000f
+int id italic 0x7f0c0010
+int id line1 0x7f0c0011
+int id line3 0x7f0c0012
+int id media_actions 0x7f0c0013
+int id normal 0x7f0c0014
+int id notification_background 0x7f0c0015
+int id notification_main_column 0x7f0c0016
+int id notification_main_column_container 0x7f0c0017
+int id right_icon 0x7f0c0018
+int id right_side 0x7f0c0019
+int id status_bar_latest_event_content 0x7f0c001a
+int id tag_transition_group 0x7f0c001b
+int id tag_unhandled_key_event_manager 0x7f0c001c
+int id tag_unhandled_key_listeners 0x7f0c001d
+int id text 0x7f0c001e
+int id text2 0x7f0c001f
+int id time 0x7f0c0020
+int id title 0x7f0c0021
+>>>>>>> master
 int integer cancel_button_image_alpha 0x7f0d0001
 int integer status_bar_notification_info_maxnum 0x7f0d0002
 int layout notification_action 0x7f0f0001
@@ -134,7 +162,10 @@ int style TextAppearance_Compat_Notification_Title 0x7f160009
 int style TextAppearance_Compat_Notification_Title_Media 0x7f16000a
 int style Widget_Compat_NotificationActionContainer 0x7f16000b
 int style Widget_Compat_NotificationActionText 0x7f16000c
+<<<<<<< HEAD
 int style Widget_Support_CoordinatorLayout 0x7f16000d
+=======
+>>>>>>> master
 int[] styleable ColorStateListItem { 0x7f040001, 0x101031f, 0x10101a5 }
 int styleable ColorStateListItem_alpha 0
 int styleable ColorStateListItem_android_alpha 1

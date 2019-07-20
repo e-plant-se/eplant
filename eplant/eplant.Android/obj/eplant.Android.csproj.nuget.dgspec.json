@@ -74,6 +74,10 @@
               "target": "Package",
               "version": "[1.1.0, )"
             },
+            "Xamarin.Firebase.Storage": {
+              "target": "Package",
+              "version": "[71.1602.0, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.0.0.425677, )"
@@ -127,9 +131,17 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
             "XLabs.Forms": {
               "target": "Package",
               "version": "[2.0.5782, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[4.0.1.5, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

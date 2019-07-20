@@ -15,8 +15,14 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="android.support.customtabs" >
+=======
+    package="android.support.compat" >
+>>>>>>> master
 
     <uses-sdk android:minSdkVersion="15" />
+
+    <application android:appComponentFactory="android.support.v4.app.CoreComponentFactory" />
 
 </manifest>

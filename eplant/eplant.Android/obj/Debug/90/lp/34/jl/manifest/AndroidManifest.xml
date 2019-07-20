@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+<<<<<<< HEAD:eplant/eplant.Android/obj/Debug/90/lp/34/jl/manifest/AndroidManifest.xml
  Copyright (C) 2012 The Android Open Source Project
+=======
+ Copyright (C) 2016 The Android Open Source Project
+>>>>>>> master:eplant/eplant.Android/obj/Debug/90/lp/37/jl/manifest/AndroidManifest.xml
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,6 +18,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<<<<<<< HEAD:eplant/eplant.Android/obj/Debug/90/lp/34/jl/manifest/AndroidManifest.xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="android.support.v7.appcompat">
+=======
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="android.support.transition">
+>>>>>>> master:eplant/eplant.Android/obj/Debug/90/lp/37/jl/manifest/AndroidManifest.xml
   <uses-sdk android:minSdkVersion="14" />
 </manifest>
