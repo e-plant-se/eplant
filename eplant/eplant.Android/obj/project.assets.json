@@ -2578,24 +2578,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Carlos Figueroa\\.nuget\\packages\\": {},
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
+      "projectUniqueName": "C:\\Programs_Git\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
       "projectName": "eplant.Android",
-      "projectPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
-      "packagesPath": "C:\\Users\\Carlos Figueroa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant.Android\\obj\\",
+      "projectPath": "C:\\Programs_Git\\eplant\\eplant\\eplant.Android\\eplant.Android.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Programs_Git\\eplant\\eplant\\eplant.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Carlos Figueroa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2609,8 +2609,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\eplant.csproj": {
-              "projectPath": "C:\\Users\\Carlos Figueroa\\source\\repos\\eplant\\eplant\\eplant\\eplant.csproj"
+            "C:\\Programs_Git\\eplant\\eplant\\eplant\\eplant.csproj": {
+              "projectPath": "C:\\Programs_Git\\eplant\\eplant\\eplant\\eplant.csproj"
             }
           }
         }

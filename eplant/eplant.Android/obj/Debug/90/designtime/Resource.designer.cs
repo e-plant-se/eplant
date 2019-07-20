@@ -7213,8 +7213,13 @@ namespace eplant.Droid
 			// aapt resource value: 0x7F020053
 			public const int abc_vector_test = 2130837587;
 			
+<<<<<<< HEAD
+			// aapt resource value: 0x7F010316
+			public const int ad16 = 2130772758;
+=======
 			// aapt resource value: 0x7F020054
 			public const int ad16 = 2130837588;
+>>>>>>> master
 			
 			// aapt resource value: 0x7F020055
 			public const int avd_hide_password = 2130837589;
@@ -7222,8 +7227,13 @@ namespace eplant.Droid
 			// aapt resource value: 0x7F020154
 			public const int avd_hide_password_1 = 2130837844;
 			
+<<<<<<< HEAD
+			// aapt resource value: 0x7F010317
+			public const int calendar_bg_selector = 2130772759;
+=======
 			// aapt resource value: 0x7F020155
 			public const int avd_hide_password_2 = 2130837845;
+>>>>>>> master
 			
 			// aapt resource value: 0x7F020156
 			public const int avd_hide_password_3 = 2130837846;
@@ -7325,7 +7335,10 @@ namespace eplant.Droid
 			public const int googleg_standard_color_18 = 2130837618;
 			
 			// aapt resource value: 0x7F010002
-			public const int icon = 2130771970;
+			public const int fb_logo = 2130771970;
+			
+			// aapt resource value: 0x7F010003
+			public const int icon = 2130771971;
 			
 			// aapt resource value: 0x7F010003
 			public const int iconeplant = 2130771971;
@@ -7972,6 +7985,13 @@ namespace eplant.Droid
 			// aapt resource value: 0x7F020148
 			public const int notification_tile_bg = 2130837832;
 			
+<<<<<<< HEAD
+			// aapt resource value: 0x7F010004
+			public const int planet = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int planta = 2130771973;
+=======
 			// aapt resource value: 0x7F020149
 			public const int notify_panel_notification_icon_bg = 2130837833;
 			
@@ -8001,6 +8021,7 @@ namespace eplant.Droid
 			
 			// aapt resource value: 0x7F010008
 			public const int takePhoto = 2130771976;
+>>>>>>> master
 			
 			// aapt resource value: 0x7F02014F
 			public const int takephoto2 = 2130837839;
@@ -8013,6 +8034,9 @@ namespace eplant.Droid
 			
 			// aapt resource value: 0x7F020151
 			public const int tooltip_frame_light = 2130837841;
+			
+			// aapt resource value: 0x7F010006
+			public const int tw_logo = 2130771974;
 			
 			static Drawable()
 			{

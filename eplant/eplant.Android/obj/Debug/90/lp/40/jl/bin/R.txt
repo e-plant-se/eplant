@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 int attr cardBackgroundColor 0x7f040001
 int attr cardCornerRadius 0x7f040002
 int attr cardElevation 0x7f040003
@@ -35,3 +37,4 @@ int styleable CardView_contentPaddingBottom 9
 int styleable CardView_contentPaddingLeft 10
 int styleable CardView_contentPaddingRight 11
 int styleable CardView_contentPaddingTop 12
+>>>>>>> master

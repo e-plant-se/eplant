@@ -120,6 +120,13 @@
     <AndroidResource Include="Resources\drawable\planta.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\planet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\fb_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\tw_logo.png" />
     <AndroidResource Include="Resources\drawable\iconeplant.png" />
   </ItemGroup>
   <ItemGroup>

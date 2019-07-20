@@ -15,7 +15,11 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD:eplant/eplant.Android/obj/Debug/90/lp/18/jl/AndroidManifest.xml
+    package="android.support.cursoradapter" >
+=======
     package="android.support.v7.recyclerview" >
+>>>>>>> master:eplant/eplant.Android/obj/Debug/90/lp/43/jl/bin/AndroidManifest.xml
 
     <uses-sdk android:minSdkVersion="14" />
 
