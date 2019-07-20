@@ -9,7 +9,8 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:label="eplant.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/iconeplant" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/iconeplant" android:label="eplant" android:theme="@style/MainTheme" android:name="md586369f1a1f1422c5312af6f3655755c1.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/iconeplant" android:label="eplant" android:theme="@style/MainTheme" android:name="md586369f1a1f1422c5312af6f3655755c1.MainActivity" />
+    <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md586369f1a1f1422c5312af6f3655755c1.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

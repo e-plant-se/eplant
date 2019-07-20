@@ -705,3 +705,5 @@ C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\res\drawable\screeneplant.jpeg
+C:\Users\Carlos Figueroa\source\repos\eplant\eplant\eplant.Android\obj\Debug\90\android\src\md586369f1a1f1422c5312af6f3655755c1\SplashActivity.java

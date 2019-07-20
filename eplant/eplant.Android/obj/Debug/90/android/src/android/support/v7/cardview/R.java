@@ -4703,13 +4703,13 @@ containing a value of this type.
         public static int abc_vector_test=0x7f020053;
         public static int ad16=0x7f020054;
         public static int avd_hide_password=0x7f020055;
-        public static int avd_hide_password_1=0x7f020154;
-        public static int avd_hide_password_2=0x7f020155;
-        public static int avd_hide_password_3=0x7f020156;
+        public static int avd_hide_password_1=0x7f020155;
+        public static int avd_hide_password_2=0x7f020156;
+        public static int avd_hide_password_3=0x7f020157;
         public static int avd_show_password=0x7f020056;
-        public static int avd_show_password_1=0x7f020157;
-        public static int avd_show_password_2=0x7f020158;
-        public static int avd_show_password_3=0x7f020159;
+        public static int avd_show_password_1=0x7f020158;
+        public static int avd_show_password_2=0x7f020159;
+        public static int avd_show_password_3=0x7f02015a;
         public static int calendar_bg_selector=0x7f020057;
         public static int common_full_open_on_phone=0x7f020058;
         public static int common_google_signin_btn_icon_dark=0x7f020059;
@@ -4951,18 +4951,19 @@ containing a value of this type.
         public static int notification_bg_normal=0x7f020145;
         public static int notification_bg_normal_pressed=0x7f020146;
         public static int notification_icon_background=0x7f020147;
-        public static int notification_template_icon_bg=0x7f020152;
-        public static int notification_template_icon_low_bg=0x7f020153;
+        public static int notification_template_icon_bg=0x7f020153;
+        public static int notification_template_icon_low_bg=0x7f020154;
         public static int notification_tile_bg=0x7f020148;
         public static int notify_panel_notification_icon_bg=0x7f020149;
         public static int photodefault=0x7f02014a;
         public static int photodefault2=0x7f02014b;
         public static int photodefault3=0x7f02014c;
         public static int planta=0x7f02014d;
-        public static int takephoto=0x7f02014e;
-        public static int takephoto2=0x7f02014f;
-        public static int tooltip_frame_dark=0x7f020150;
-        public static int tooltip_frame_light=0x7f020151;
+        public static int screeneplant=0x7f02014e;
+        public static int takephoto=0x7f02014f;
+        public static int takephoto2=0x7f020150;
+        public static int tooltip_frame_dark=0x7f020151;
+        public static int tooltip_frame_light=0x7f020152;
     }
     public static final class id {
         public static int ALT=0x7f0e0041;
@@ -5852,6 +5853,9 @@ containing a value of this type.
         public static int Theme_MediaRouter_Light=0x7f0c0008;
         public static int Theme_MediaRouter_Light_DarkControlPanel=0x7f0c0009;
         public static int Theme_MediaRouter_LightControlPanel=0x7f0c000a;
+        /**  Splash Screen 
+         */
+        public static int Theme_Splash=0x7f0c0206;
         public static int ThemeOverlay_AppCompat=0x7f0c0116;
         public static int ThemeOverlay_AppCompat_ActionBar=0x7f0c0117;
         public static int ThemeOverlay_AppCompat_Dark=0x7f0c0118;

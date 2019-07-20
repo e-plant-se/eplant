@@ -7219,26 +7219,26 @@ namespace eplant.Droid
 			// aapt resource value: 0x7F020055
 			public const int avd_hide_password = 2130837589;
 			
-			// aapt resource value: 0x7F020154
-			public const int avd_hide_password_1 = 2130837844;
-			
 			// aapt resource value: 0x7F020155
-			public const int avd_hide_password_2 = 2130837845;
+			public const int avd_hide_password_1 = 2130837845;
 			
 			// aapt resource value: 0x7F020156
-			public const int avd_hide_password_3 = 2130837846;
+			public const int avd_hide_password_2 = 2130837846;
+			
+			// aapt resource value: 0x7F020157
+			public const int avd_hide_password_3 = 2130837847;
 			
 			// aapt resource value: 0x7F020056
 			public const int avd_show_password = 2130837590;
 			
-			// aapt resource value: 0x7F020157
-			public const int avd_show_password_1 = 2130837847;
-			
 			// aapt resource value: 0x7F020158
-			public const int avd_show_password_2 = 2130837848;
+			public const int avd_show_password_1 = 2130837848;
 			
 			// aapt resource value: 0x7F020159
-			public const int avd_show_password_3 = 2130837849;
+			public const int avd_show_password_2 = 2130837849;
+			
+			// aapt resource value: 0x7F02015A
+			public const int avd_show_password_3 = 2130837850;
 			
 			// aapt resource value: 0x7F020057
 			public const int calendar_bg_selector = 2130837591;
@@ -7963,11 +7963,11 @@ namespace eplant.Droid
 			// aapt resource value: 0x7F020147
 			public const int notification_icon_background = 2130837831;
 			
-			// aapt resource value: 0x7F020152
-			public const int notification_template_icon_bg = 2130837842;
-			
 			// aapt resource value: 0x7F020153
-			public const int notification_template_icon_low_bg = 2130837843;
+			public const int notification_template_icon_bg = 2130837843;
+			
+			// aapt resource value: 0x7F020154
+			public const int notification_template_icon_low_bg = 2130837844;
 			
 			// aapt resource value: 0x7F020148
 			public const int notification_tile_bg = 2130837832;
@@ -7996,23 +7996,26 @@ namespace eplant.Droid
 			// aapt resource value: 0x7F010007
 			public const int planta = 2130771975;
 			
-			// aapt resource value: 0x7F02014E
-			public const int takephoto = 2130837838;
-			
 			// aapt resource value: 0x7F010008
-			public const int takePhoto = 2130771976;
+			public const int screeneplant = 2130771976;
 			
 			// aapt resource value: 0x7F02014F
-			public const int takephoto2 = 2130837839;
+			public const int takephoto = 2130837839;
 			
 			// aapt resource value: 0x7F010009
-			public const int takePhoto2 = 2130771977;
+			public const int takePhoto = 2130771977;
 			
 			// aapt resource value: 0x7F020150
-			public const int tooltip_frame_dark = 2130837840;
+			public const int takephoto2 = 2130837840;
+			
+			// aapt resource value: 0x7F010010
+			public const int takePhoto2 = 2130771984;
 			
 			// aapt resource value: 0x7F020151
-			public const int tooltip_frame_light = 2130837841;
+			public const int tooltip_frame_dark = 2130837841;
+			
+			// aapt resource value: 0x7F020152
+			public const int tooltip_frame_light = 2130837842;
 			
 			static Drawable()
 			{
@@ -10813,6 +10816,9 @@ namespace eplant.Droid
 			
 			// aapt resource value: 0x7F0C0009
 			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131492873;
+			
+			// aapt resource value: 0x7F060005
+			public const int Theme_Splash = 2131099653;
 			
 			// aapt resource value: 0x7F0C011D
 			public const int Widget_AppCompat_ActionBar = 2131493149;
