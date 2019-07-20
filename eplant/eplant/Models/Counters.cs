@@ -1,5 +1,4 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace eplant.Models
 {
@@ -10,10 +9,5 @@ namespace eplant.Models
 
         [JsonProperty("seq")]
         public int Seq { get; set; }
-
-        internal bool Any()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

@@ -115,6 +115,9 @@ class MonoPackageManager_Resources {
 		"ExifLib.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Media.dll",
+		"Plugin.Permissions.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -155,10 +158,16 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.VersionedParcelable.dll",
 		"Xamarin.Android.Support.ViewPager.dll",
 		"Xamarin.Essentials.dll",
+		"Xamarin.Firebase.Common.dll",
+		"Xamarin.Firebase.Storage.dll",
 		"Xamarin.Forms.Core.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Xamarin.Google.AutoValue.Annotations.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Tasks.dll",
 		"XLabs.Core.dll",
 		"XLabs.Forms.dll",
 		"XLabs.Forms.Droid.dll",
@@ -169,5 +178,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_28";
+	public static final String ApiPackageName = null;
 }

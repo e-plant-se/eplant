@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[2.0.5782, )"
             },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[4.0.1.5, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.2.0, )"

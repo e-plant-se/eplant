@@ -5,17 +5,20 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
              mc:Ignorable="d"
-             x:Class="eplant.RegistroPlanta">
-    <ScrollView>
+             x:Class="eplant.RegistroPlanta"
+             Title="Registro Planta">
+    <ScrollView
+        BackgroundColor="White">
         <StackLayout
             Margin="10">
-            <Label
+            <!--<Label
                 Text="Registro Planta"
                 HorizontalOptions="Center"
                 TextColor="Black"
                 FontSize="Large"
-                FontAttributes="Bold"></Label>
+                FontAttributes="Bold"></Label>-->
             <controls:CircleImage
+                x:Name="image"
                 Margin="10"
                 HorizontalOptions="Fill"
                 Aspect="AspectFit"
@@ -25,12 +28,17 @@
                     <OnPlatform
                         x:TypeArguments="ImageSource">
                         <OnPlatform.Android>
-                            <FileImageSource
-                                File="planta.jpg"></FileImageSource>
+                            <FileImageSource></FileImageSource>
                         </OnPlatform.Android>
                     </OnPlatform>
                 </controls:CircleImage.Source>
             </controls:CircleImage>
+            <Button
+                Text="Selecciona una foto"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"
+                Clicked="SelectPhoto"
+                BackgroundColor="White"></Button>
             <Label
                 Text="Nombre común"
                 HorizontalOptions="FillAndExpand"

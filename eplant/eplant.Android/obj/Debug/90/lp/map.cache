@@ -2,6 +2,9 @@ eplant
 ExifLib
 FormsViewGroup
 Newtonsoft.Json
+Plugin.CurrentActivity
+Plugin.Media
+Plugin.Permissions
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Core.Runtime
@@ -43,10 +46,16 @@ Xamarin.Android.Support.Vector.Drawable
 Xamarin.Android.Support.VersionedParcelable
 Xamarin.Android.Support.ViewPager
 Xamarin.Essentials
+Xamarin.Firebase.Common
+Xamarin.Firebase.Storage
 Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+Xamarin.Google.AutoValue.Annotations
+Xamarin.GooglePlayServices.Base
+Xamarin.GooglePlayServices.Basement
+Xamarin.GooglePlayServices.Tasks
 XLabs.Core
 XLabs.Forms
 XLabs.Forms.Droid

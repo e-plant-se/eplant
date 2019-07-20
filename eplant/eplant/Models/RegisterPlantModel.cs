@@ -4,8 +4,8 @@ namespace eplant.Models
 {
     public class RegisterPlantModel
     {
-        [JsonProperty("id")]
-        public int id { get; set; }
+        [JsonProperty("imagen")]
+        public string Imagen { get; set; }
 
         [JsonProperty("nombreComun")]
         public string NombreComun { get; set; }
